@@ -9,6 +9,27 @@ body {
     height: 100%;
 }
 
+
+.navbar-brand {
+    padding: 10px 15px;  /* adjust the top and bottom padding to less than default 15px  if your logo is too small  */
+    margin-top: 10px;  /* adjust the top margin if your logo doesn't line up well  */
+    height: 70px; /* you should ONLY need to  adjust this when your navbar is larger than default 50px. This should equal the height of computed height of  .navbar>li>a which is by default is 50px. Don't use this to try and make your logo bigger or smaller. Instead adjust the top and bottom padding accordingly. */
+}
+
+.navbar-toggle {
+    padding: 100px;
+
+}
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+
 .carousel,
 .item,
 .active {
